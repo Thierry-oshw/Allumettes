@@ -80,6 +80,8 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(aux_axis_origin 247.7 81.3)
+		(grid_origin 247.7 81.3)
 		(pcbplotparams
 			(layerselection 0x00310fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -3204,6 +3206,26 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "842bbe57-6d2c-49d1-8151-0209c9adf449")
+	)
+	(gr_line
+		(start 245.2 98.3)
+		(end 250.2 64.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "User.9")
+		(uuid "903cf0bb-4680-4e16-adbb-940922eeee7d")
+	)
+	(gr_line
+		(start 245.2 64.3)
+		(end 250.2 98.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "User.9")
+		(uuid "d5e458cb-a0e7-458f-ae76-8909bb3b79f3")
 	)
 	(gr_text "5V"
 		(at 247.025 90.975 0)
