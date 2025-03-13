@@ -2967,11 +2967,11 @@
     "netclass_patterns": [
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-/3V3"
+        "pattern": "Board_0-/GND"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U1-A)"
+        "pattern": "Board_0-/3V3"
       },
       {
         "netclass": "Board_0-Default",
@@ -2979,11 +2979,11 @@
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-/OUT_i"
+        "pattern": "Board_0-Net-(JP1-B)"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(JP1-B)"
+        "pattern": "Board_0-/OUT_i"
       },
       {
         "netclass": "Board_0-Default",
@@ -2995,7 +2995,7 @@
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-/GND"
+        "pattern": "Board_0-Net-(U1-A)"
       },
       {
         "netclass": "Board_1-Default",
@@ -3003,15 +3003,7 @@
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(U1-A)"
-      },
-      {
-        "netclass": "Board_1-Default",
         "pattern": "Board_1-/3V3"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/IN"
       },
       {
         "netclass": "Board_1-Default",
@@ -3019,35 +3011,19 @@
       },
       {
         "netclass": "Board_1-Default",
+        "pattern": "Board_1-/5V"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/IN"
+      },
+      {
+        "netclass": "Board_1-Default",
         "pattern": "Board_1-Net-(U1-B)"
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-/5V"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/3V3"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/ANA"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/GND"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U1--)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/ANA_i"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(TP5-Pad1)"
+        "pattern": "Board_1-Net-(U1-A)"
       },
       {
         "netclass": "Board_2-Default",
@@ -3055,7 +3031,39 @@
       },
       {
         "netclass": "Board_2-Default",
+        "pattern": "Board_2-/3V3"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U1--)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/ANA"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/ANA_i"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/GND"
+      },
+      {
+        "netclass": "Board_2-Default",
         "pattern": "Board_2-Net-(C1-Pad1)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(TP5-Pad1)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/OUT"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(Q1-G)"
       },
       {
         "netclass": "Board_3-Default",
@@ -3063,7 +3071,7 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(Q1-G)"
+        "pattern": "Board_3-/5V"
       },
       {
         "netclass": "Board_3-Default",
@@ -3074,28 +3082,8 @@
         "pattern": "Board_3-/OUT_i"
       },
       {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/OUT"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/5V"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(JP1-B)"
-      },
-      {
         "netclass": "Board_4-Default",
         "pattern": "Board_4-/OUT"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/OUT_i"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(U1-A)"
       },
       {
         "netclass": "Board_4-Default",
@@ -3103,7 +3091,11 @@
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-/3V3"
+        "pattern": "Board_4-Net-(U1-A)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/OUT_i"
       },
       {
         "netclass": "Board_4-Default",
@@ -3114,8 +3106,12 @@
         "pattern": "Board_4-/GND"
       },
       {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/5V"
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(JP1-B)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/3V3"
       },
       {
         "netclass": "Board_5-Default",
@@ -3123,7 +3119,11 @@
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-/IN"
+        "pattern": "Board_5-/IN_i"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/5V"
       },
       {
         "netclass": "Board_5-Default",
@@ -3139,31 +3139,11 @@
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-/IN_i"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/3V3"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/GND"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(U1-+)"
+        "pattern": "Board_5-/IN"
       },
       {
         "netclass": "Board_6-Default",
         "pattern": "Board_6-Net-(U1--)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(C1-Pad1)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/ANA"
       },
       {
         "netclass": "Board_6-Default",
@@ -3174,8 +3154,24 @@
         "pattern": "Board_6-unconnected-(TP5-Pad1)"
       },
       {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/OUT_i"
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-Net-(C1-Pad1)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/GND"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/3V3"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-Net-(U1-+)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/ANA"
       },
       {
         "netclass": "Board_7-Default",
@@ -3183,11 +3179,7 @@
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-/3V3"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/5V"
+        "pattern": "Board_7-/OUT_i"
       },
       {
         "netclass": "Board_7-Default",
@@ -3198,24 +3190,12 @@
         "pattern": "Board_7-Net-(Q1-G)"
       },
       {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/OUT"
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/5V"
       },
       {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(U1-B)"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(JP1-B)"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/GND"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(U1-A)"
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/3V3"
       },
       {
         "netclass": "Board_8-Default",
@@ -3223,27 +3203,31 @@
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-/5V"
+        "pattern": "Board_8-Net-(JP1-B)"
       },
       {
         "netclass": "Board_8-Default",
         "pattern": "Board_8-/OUT_i"
       },
       {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-Net-(U1-A)"
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-Net-(U1-B)"
       },
       {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-/3V3"
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-Net-(U1-A)"
       },
       {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-/GND"
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/GND"
       },
       {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-/5V"
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/OUT"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/5V"
       },
       {
         "netclass": "Board_9-Default",
@@ -3251,19 +3235,27 @@
       },
       {
         "netclass": "Board_9-Default",
+        "pattern": "Board_9-/IN"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/3V3"
+      },
+      {
+        "netclass": "Board_9-Default",
         "pattern": "Board_9-/IN_i"
       },
       {
         "netclass": "Board_9-Default",
-        "pattern": "Board_9-/IN"
+        "pattern": "Board_9-/5V"
       },
       {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(U1-+)"
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-Net-(U1-A)"
       },
       {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(U1--)"
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/GND"
       },
       {
         "netclass": "Board_10-Default",
@@ -3271,7 +3263,7 @@
       },
       {
         "netclass": "Board_10-Default",
-        "pattern": "Board_10-unconnected-(TP5-Pad1)"
+        "pattern": "Board_10-Net-(U1--)"
       },
       {
         "netclass": "Board_10-Default",
@@ -3279,7 +3271,15 @@
       },
       {
         "netclass": "Board_10-Default",
-        "pattern": "Board_10-/3V3"
+        "pattern": "Board_10-Net-(U1-+)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-unconnected-(TP5-Pad1)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-Net-(C1-Pad1)"
       },
       {
         "netclass": "Board_10-Default",
@@ -3287,7 +3287,23 @@
       },
       {
         "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(C1-Pad1)"
+        "pattern": "Board_10-/3V3"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/5V"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(U1-A)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/GND"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(U1-B)"
       },
       {
         "netclass": "Board_11-Default",
@@ -3299,27 +3315,11 @@
       },
       {
         "netclass": "Board_11-Default",
-        "pattern": "Board_11-/OUT_i"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-/GND"
-      },
-      {
-        "netclass": "Board_11-Default",
         "pattern": "Board_11-/OUT"
       },
       {
         "netclass": "Board_11-Default",
-        "pattern": "Board_11-/5V"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(U1-B)"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(U1-A)"
+        "pattern": "Board_11-/OUT_i"
       },
       {
         "netclass": "Board_12-Default",
@@ -3327,19 +3327,7 @@
       },
       {
         "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(U1-A)"
-      },
-      {
-        "netclass": "Board_12-Default",
         "pattern": "Board_12-/3V3"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(U1-B)"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-/GND"
       },
       {
         "netclass": "Board_12-Default",
@@ -3347,15 +3335,19 @@
       },
       {
         "netclass": "Board_12-Default",
+        "pattern": "Board_12-/GND"
+      },
+      {
+        "netclass": "Board_12-Default",
         "pattern": "Board_12-/5V"
       },
       {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-/ANA_i"
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(U1-B)"
       },
       {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-/ANA"
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(U1-A)"
       },
       {
         "netclass": "Board_13-Default",
@@ -3367,7 +3359,7 @@
       },
       {
         "netclass": "Board_13-Default",
-        "pattern": "Board_13-unconnected-(TP5-Pad1)"
+        "pattern": "Board_13-/ANA_i"
       },
       {
         "netclass": "Board_13-Default",
@@ -3375,19 +3367,31 @@
       },
       {
         "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(U1-+)"
+        "pattern": "Board_13-/ANA"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-unconnected-(TP5-Pad1)"
       },
       {
         "netclass": "Board_13-Default",
         "pattern": "Board_13-Net-(C1-Pad1)"
       },
       {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(U1-+)"
+      },
+      {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-/3V3"
+        "pattern": "Board_14-/0V"
       },
       {
         "netclass": "Board_14-Default",
         "pattern": "Board_14-/OUT"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-/3V3"
       },
       {
         "netclass": "Board_14-Default",
@@ -3402,20 +3406,8 @@
         "pattern": "Board_14-/5V"
       },
       {
-        "netclass": "Board_14-Default",
-        "pattern": "Board_14-/0V"
-      },
-      {
         "netclass": "Board_15-Default",
-        "pattern": "Board_15-/GND"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-/OUT_i"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-/3V3"
+        "pattern": "Board_15-/OUT"
       },
       {
         "netclass": "Board_15-Default",
@@ -3423,11 +3415,19 @@
       },
       {
         "netclass": "Board_15-Default",
+        "pattern": "Board_15-Net-(U1-A)"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-/OUT_i"
+      },
+      {
+        "netclass": "Board_15-Default",
         "pattern": "Board_15-Net-(JP1-B)"
       },
       {
         "netclass": "Board_15-Default",
-        "pattern": "Board_15-/OUT"
+        "pattern": "Board_15-/GND"
       },
       {
         "netclass": "Board_15-Default",
@@ -3435,7 +3435,7 @@
       },
       {
         "netclass": "Board_15-Default",
-        "pattern": "Board_15-Net-(U1-A)"
+        "pattern": "Board_15-/3V3"
       },
       {
         "netclass": "Board_16-Default",
@@ -3443,11 +3443,11 @@
       },
       {
         "netclass": "Board_16-Default",
-        "pattern": "Board_16-/IN_i"
+        "pattern": "Board_16-/IN"
       },
       {
         "netclass": "Board_16-Default",
-        "pattern": "Board_16-/IN"
+        "pattern": "Board_16-Net-(U1-B)"
       },
       {
         "netclass": "Board_16-Default",
@@ -3455,19 +3455,15 @@
       },
       {
         "netclass": "Board_16-Default",
-        "pattern": "Board_16-/3V3"
-      },
-      {
-        "netclass": "Board_16-Default",
         "pattern": "Board_16-Net-(U1-A)"
       },
       {
         "netclass": "Board_16-Default",
-        "pattern": "Board_16-Net-(U1-B)"
+        "pattern": "Board_16-/3V3"
       },
       {
-        "netclass": "Board_17-Default",
-        "pattern": "Board_17-Net-(U1-+)"
+        "netclass": "Board_16-Default",
+        "pattern": "Board_16-/IN_i"
       },
       {
         "netclass": "Board_17-Default",
@@ -3475,11 +3471,15 @@
       },
       {
         "netclass": "Board_17-Default",
-        "pattern": "Board_17-unconnected-(TP5-Pad1)"
+        "pattern": "Board_17-/ANA_i"
       },
       {
         "netclass": "Board_17-Default",
-        "pattern": "Board_17-/GND"
+        "pattern": "Board_17-Net-(U1-+)"
+      },
+      {
+        "netclass": "Board_17-Default",
+        "pattern": "Board_17-Net-(U1--)"
       },
       {
         "netclass": "Board_17-Default",
@@ -3487,19 +3487,23 @@
       },
       {
         "netclass": "Board_17-Default",
+        "pattern": "Board_17-/GND"
+      },
+      {
+        "netclass": "Board_17-Default",
+        "pattern": "Board_17-unconnected-(TP5-Pad1)"
+      },
+      {
+        "netclass": "Board_17-Default",
         "pattern": "Board_17-Net-(C1-Pad1)"
       },
       {
-        "netclass": "Board_17-Default",
-        "pattern": "Board_17-/ANA_i"
-      },
-      {
-        "netclass": "Board_17-Default",
-        "pattern": "Board_17-Net-(U1--)"
+        "netclass": "Board_18-Default",
+        "pattern": "Board_18-/5V"
       },
       {
         "netclass": "Board_18-Default",
-        "pattern": "Board_18-Net-(Q1-G)"
+        "pattern": "Board_18-/OUT_i"
       },
       {
         "netclass": "Board_18-Default",
@@ -3511,31 +3515,15 @@
       },
       {
         "netclass": "Board_18-Default",
-        "pattern": "Board_18-/OUT_i"
+        "pattern": "Board_18-Net-(Q1-G)"
       },
       {
         "netclass": "Board_18-Default",
         "pattern": "Board_18-/OUT"
       },
       {
-        "netclass": "Board_18-Default",
-        "pattern": "Board_18-/5V"
-      },
-      {
         "netclass": "Board_19-Default",
-        "pattern": "Board_19-/5V"
-      },
-      {
-        "netclass": "Board_19-Default",
-        "pattern": "Board_19-Net-(U1-B)"
-      },
-      {
-        "netclass": "Board_19-Default",
-        "pattern": "Board_19-/OUT_i"
-      },
-      {
-        "netclass": "Board_19-Default",
-        "pattern": "Board_19-/GND"
+        "pattern": "Board_19-Net-(U1-A)"
       },
       {
         "netclass": "Board_19-Default",
@@ -3543,7 +3531,15 @@
       },
       {
         "netclass": "Board_19-Default",
-        "pattern": "Board_19-/OUT"
+        "pattern": "Board_19-/GND"
+      },
+      {
+        "netclass": "Board_19-Default",
+        "pattern": "Board_19-/OUT_i"
+      },
+      {
+        "netclass": "Board_19-Default",
+        "pattern": "Board_19-Net-(U1-B)"
       },
       {
         "netclass": "Board_19-Default",
@@ -3551,11 +3547,15 @@
       },
       {
         "netclass": "Board_19-Default",
-        "pattern": "Board_19-Net-(U1-A)"
+        "pattern": "Board_19-/5V"
+      },
+      {
+        "netclass": "Board_19-Default",
+        "pattern": "Board_19-/OUT"
       },
       {
         "netclass": "Board_20-Default",
-        "pattern": "Board_20-/IN"
+        "pattern": "Board_20-/5V"
       },
       {
         "netclass": "Board_20-Default",
@@ -3563,11 +3563,7 @@
       },
       {
         "netclass": "Board_20-Default",
-        "pattern": "Board_20-Net-(U1-A)"
-      },
-      {
-        "netclass": "Board_20-Default",
-        "pattern": "Board_20-/5V"
+        "pattern": "Board_20-/IN"
       },
       {
         "netclass": "Board_20-Default",
@@ -3582,8 +3578,24 @@
         "pattern": "Board_20-/3V3"
       },
       {
+        "netclass": "Board_20-Default",
+        "pattern": "Board_20-Net-(U1-A)"
+      },
+      {
+        "netclass": "Board_21-Default",
+        "pattern": "Board_21-/GND"
+      },
+      {
+        "netclass": "Board_21-Default",
+        "pattern": "Board_21-Net-(U1-+)"
+      },
+      {
         "netclass": "Board_21-Default",
         "pattern": "Board_21-/ANA_i"
+      },
+      {
+        "netclass": "Board_21-Default",
+        "pattern": "Board_21-Net-(C1-Pad1)"
       },
       {
         "netclass": "Board_21-Default",
@@ -3595,19 +3607,7 @@
       },
       {
         "netclass": "Board_21-Default",
-        "pattern": "Board_21-/GND"
-      },
-      {
-        "netclass": "Board_21-Default",
-        "pattern": "Board_21-Net-(C1-Pad1)"
-      },
-      {
-        "netclass": "Board_21-Default",
         "pattern": "Board_21-/3V3"
-      },
-      {
-        "netclass": "Board_21-Default",
-        "pattern": "Board_21-Net-(U1-+)"
       },
       {
         "netclass": "Board_21-Default",

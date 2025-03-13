@@ -18,3 +18,6 @@ Derived from KiKit. Same MIT license.
 
 ## Versions
 Tested with KiCAD 7 and KiKit 1.1.0
+
+## faire "python panelize_multiple.py" dans le cli kicad
+puis changer les v-cut en user.1 au lieu de user.comments
