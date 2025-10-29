@@ -1294,6 +1294,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 80.01) (xy 86.36 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aec69702-aea2-4126-97c7-c89d21b9314d")
+	)
+	(wire
+		(pts
 			(xy 196.85 46.99) (xy 198.12 46.99)
 		)
 		(stroke
@@ -1511,6 +1521,16 @@
 			(justify right bottom)
 		)
 		(uuid "27de0468-910f-434d-8c25-c4654a156098")
+	)
+	(label "GND"
+		(at 86.36 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "434719ad-1c15-4d84-b7f4-1d0ec1a3ed53")
 	)
 	(label "5V"
 		(at 59.69 48.26 0)
@@ -1849,6 +1869,71 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17ffd4eb-13dd-4236-a0b6-3ac9d7f2f2cf")
+		(property "Reference" "TP6"
+			(at 77.978 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.978 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Chimere_comps:Pastille"
+			(at 81.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62c167a7-e246-451f-9727-641b2122888d")
+		)
+		(instances
+			(project "BIDIR-5V"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
