@@ -28,3 +28,5 @@ fp-info-cache
 *.xml
 *.csv
 XCAN/~XCAN.kicad_sch.lck
+BIDIR_5V/~BIDIR-5V.kicad_pcb.lck
+BIDIR_5V/~BIDIR-5V.kicad_sch.lck
